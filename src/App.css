@@ -1,0 +1,65 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background: url("./assets/background.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-box {
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  border: 2px solid rgb(37, 36, 36);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.white-box > h3 {
+  margin-bottom: 1rem;
+  width: 98%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.white-box > p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+.white-box > button {
+  border: 3px solid rgb(223, 82, 106);
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: rgb(223, 82, 106);
+  border-radius: 10px;
+}
+
+.white-box > button:hover {
+  background-color: transparent;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.loader {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid rgb(37, 36, 36);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
